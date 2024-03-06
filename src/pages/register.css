@@ -1,0 +1,66 @@
+/* register.css */
+
+/* Form container */
+.max-w-md {
+    max-width: 28rem; /* Adjust the maximum width as needed */
+  }
+  
+  /* Form inputs */
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 0.375rem;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  input[type='text']:focus,
+  input[type='email']:focus,
+  input[type='password']:focus {
+    border-color: #2563eb;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(38, 139, 210, 0.25);
+  }
+  
+  /* Error message */
+  .text-red-500 {
+    color: #e53e3e;
+  }
+  
+  /* Button */
+  button[type='submit'] {
+    background-color: #2563eb;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Link */
+  a {
+    color: #2563eb;
+  }
+  
+  a:hover {
+    color: #1d4ed8;
+  }
+  
